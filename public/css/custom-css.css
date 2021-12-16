@@ -1,0 +1,74 @@
+.userpgcategory{
+/*padding-left: 5px;*/
+margin-left: 0px !important;
+position: relative; bottom: auto; overflow-x: hidden; max-height: 90%;
+}
+.userpgcategory li{
+padding: 0px;
+border: none !important;
+border-bottom: 1px solid #ececec!important;
+margin-bottom: 0!important;
+position: static;
+float: left;
+list-style-type: none;
+width: 100%;
+display: table;
+margin: 0 auto;
+}
+
+.userpgcategory li a, .userpgcategory li span{
+text-decoration: none;
+transition-duration: .3s;
+padding: 2px 5px!important;
+float:  left;
+width: 100%;
+color: #333;
+}
+
+
+
+.userpgcategory li:hover a, .userpgcategory li:hover span{
+background-color: rgb(34,139,34);
+color: #fff;
+cursor: pointer;
+transition: all . 1s ease;
+}
+
+.userpgcategory li i{
+color: rgb(34,139,34);
+text-align: center;
+padding: 5px 5px;
+width: 50px;
+}
+.userpgcategory li a p{
+padding-left: 15px;
+}
+
+.cardcategories{
+
+  padding:0px !important;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
+
+.card-image {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
